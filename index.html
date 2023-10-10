@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Structure</title>
+    <style>
+        .tree-node {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 8px;
+        }
+
+        .tree-node.selected {
+            background-color: #f0f0f0;
+        }
+
+        .tree-node .node-name {
+            margin-right: 8px;
+        }
+
+        .tree-node .node-value {
+            margin-right: 8px;
+        }
+
+        .tree-node .node-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .tree-node .node-buttons button {
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="tree"></div>
+    <button id="addNodeButton">Add Node</button>
+    <button id="updateNodeButton">Update Node</button>
+    <button id="deleteNodeButton">Delete Node</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
